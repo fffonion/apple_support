@@ -2531,6 +2531,8 @@ please file an issue at https://github.com/bazelbuild/apple_support/issues/new
                         ACTION_NAMES.cpp_compile,
                         ACTION_NAMES.cpp_header_parsing,
                         ACTION_NAMES.cpp_module_compile,
+                        ACTION_NAMES.objc_compile,
+                        ACTION_NAMES.objcpp_compile,
                     ],
                     flag_groups = [
                         flag_group(
@@ -2560,6 +2562,8 @@ please file an issue at https://github.com/bazelbuild/apple_support/issues/new
                         ACTION_NAMES.cpp_compile,
                         ACTION_NAMES.cpp_header_parsing,
                         ACTION_NAMES.cpp_module_compile,
+                        ACTION_NAMES.objc_compile,
+                        ACTION_NAMES.objcpp_compile,
                     ],
                     env_entries = [
                         env_entry(
